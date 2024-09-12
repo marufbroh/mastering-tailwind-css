@@ -16,6 +16,13 @@
   }
 }
 
+@media (min-width: 768px) {
+  .btn {
+    --tw-text-opacity: 1;
+    color: rgb(240 253 250 / var(--tw-text-opacity))
+  }
+}
+
 @media (min-width: 1024px) {
   .btn {
     text-align: right
