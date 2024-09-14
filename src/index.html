@@ -43,5 +43,23 @@
         Subscribe
       </button>
     </div>
+
+    <div>
+      <article class="print:hidden">
+        <h1>My Secret Pizza Recipe</h1>
+        <p>This recipe is a secret, and must not be shared with anyone</p>
+        <!-- ... -->
+      </article>
+      <div class="hidden print:block">
+        Are you seriously trying to print this? It's secret!
+      </div>
+
+      <button
+        onclick="window.print()"
+        class="bg-blue-500 text-white border-0 px-3 py-2 rounded-md mt-5 print:hidden"
+      >
+        Print
+      </button>
+    </div>
   </body>
 </html>
